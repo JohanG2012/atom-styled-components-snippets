@@ -1,0 +1,10 @@
+".source.js, .source.jsx, .source.ts":
+  "init styled component":
+    "prefix": "initStyled"
+    "body": """
+      import styled from 'styled-components';
+
+      const ${1:comp} = styled.${2:div}`
+        $3
+      `;$4
+      """
